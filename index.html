@@ -26,12 +26,14 @@
                         <img src="resources/logo.png" alt="Логотип компании" />
                     </a>
                 </div>
-                <nav class="nav">
-                    <a class="nav__link" href="#about_us">о нас</a>
-                    <a class="nav__link" href="#projects">проекты</a>
-                    <a class="nav__link" href="#services">услуги</a>
-                    <a class="nav__link" href="#">контакты</a>
-                </nav>
+                <div class="right_for_nav_header">
+                    <nav class="nav_header">
+                        <a class="nav__link" href="#about_us">о нас</a>
+                        <a class="nav__link" href="#projects">проекты</a>
+                        <a class="nav__link" href="#services">услуги</a>
+                        <a class="nav__link" href="#contacts">контакты</a>
+                    </nav>
+                </div>
             </header>
         </div>
         <!-- секция стула -->
@@ -75,34 +77,59 @@
             </div>
             <a class="look_all_projects" href="#projects">Смотреть все проекты</a>
         </section>
+        <!-- описываем секцию услуг -->
         <section class="services" id="services">
             <h2>Услуги</h2>
             <div class="service">
-                <img class="img__service" src="resources/service_one.jpg" 
-                alt="Компания изготовит планировочное решение" />
+                <img class="img__service" src="resources/service_one.jpg"
+                    alt="Компания изготовит планировочное решение" />
                 <h3 class="text__service">Планировочное решение — от 2500₽/м²</h3>
             </div>
             <div class="service">
-                <img class="img__service" src="resources/service_two.jpg" 
-                alt="Компания изготовит дизайн-проект" />
+                <img class="img__service" src="resources/service_two.jpg" alt="Компания изготовит дизайн-проект" />
                 <h3 class="text__service">Дизайн-проект — от 3000₽/м²</h3>
             </div>
             <div class="service">
-                <img class="img__service" src="resources/service_three.jpg" 
-                alt="Компания на протяжении проекта занимается авторским надзором" />
+                <img class="img__service" src="resources/service_three.jpg"
+                    alt="Компания на протяжении проекта занимается авторским надзором" />
                 <h3 class="text__service">Авторский надзор — от 30 000₽ в месяц</h3>
             </div>
             <div class="service">
-                <img class="img__service" src="resources/service_four.jpg" 
-                alt="Компания подготовит материалы для проекта" />
+                <img class="img__service" src="resources/service_four.jpg"
+                    alt="Компания подготовит материалы для проекта" />
                 <h3 class="text__service">
                     Комплектация — 5% от стоимости спецификации
                 </h3>
             </div>
         </section>
-        <!-- секция "пример проекта" -->
-        <section class="example_project">
-            <p>Проект Двухкомнатной квартиры в ЖК Лесной Пейзаж</p>
+    </div>
+    <!-- секция "пример проекта" она находится вне основного контейнера -->
+    <section class="example_project">
+        <p>Проект Двухкомнатной квартиры в ЖК Лесной Пейзаж</p>
+    </section>
+    <!-- возвращаем наш контейнер -->
+    <div class="container">
+        <!-- секция контактов -->
+        <section class="contacts" id="contacts">
+            <h2>контакты</h2>
+            <ul>
+                <li class="contact">
+                    <a href="tel:+79358954535">+7 935 895-45-35</a>
+                </li>
+                <li class="contact">
+                    <a href="mailto:hello@mail.com">hello@mail.com</a>
+                </li>
+            </ul>
+        </section>
+        <!-- описываем секцию подвала -->
+        <section class="footer">
+            <nav class="nav_footer">
+                <a class="nav__link" href="#about_us">о нас</a>
+                <a class="nav__link" href="#projects">проекты</a>
+                <a class="nav__link" href="#services">услуги</a>
+                <a class="nav__link" href="#contacts">контакты</a>
+            </nav>
+            <p>студия дизайна интерьера Метрика — 2023</p>
         </section>
     </div>
 </body>
