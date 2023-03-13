@@ -12,12 +12,12 @@ body {
 h1 {
     font-size: 60px;
     line-height: 60px;
-    /* letter-spacing: -0.03em; */
+    letter-spacing: -0.03em;
 }
 
 h2 {
     margin-bottom: 30px;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 27px;
     letter-spacing: -0.03em;
     text-transform: uppercase;
@@ -43,7 +43,7 @@ h2 {
 .header {
     position: absolute;
     width: 100%;
-    top: -90px;
+    top: -94px;
 }
 
 .logo {
@@ -67,7 +67,7 @@ h2 {
 
 .nav__link {
     display: inline-block;
-    margin-right: 60px;
+    margin-right: 58px;
     font-size: 18px;
     line-height: 25px;
     letter-spacing: -0.03em;
@@ -81,10 +81,9 @@ h2 {
     padding-right: 0;
 }
 
-/* Вижу, что полоска ниже, как сделать, пока не понимаю */
 .nav_header a:hover {
     color: #121212;
-    text-decoration: underline;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
     opacity: 0.5;
 }
 
@@ -113,13 +112,13 @@ h2 {
 
 /* описание секции "about_us" */
 .about_us {
-    margin-left: 125px;
-    margin-bottom: 150px;
+    margin-left: 126px;
+    margin-bottom: 148px;
     width: 1150px;
 }
 
 .about_us p {
-    margin-bottom: 30px;
+    margin-bottom: 28px;
     width: 1048px;
     font-size: 45px;
     line-height: 61px;
@@ -140,17 +139,18 @@ h2 {
 
 /* описание секции "проекты" */
 .projects {
-    margin-left: 125px;
+    margin-left: 124px;
     margin-bottom: 150px;
     width: 1150px;
 }
+
 .project {
     width: 100%;
     margin-bottom: 90px;
 }
 
 .img__project {
-    margin-bottom: 15px;
+    margin-bottom: 13px;
 }
 
 .text__project {
@@ -178,6 +178,7 @@ h2 {
     border-radius: 5px;
     font-size: 30px;
     line-height: 153px;
+    letter-spacing: -0.03em;
     color: #ad1818;
     background-color: #fff;
     text-decoration: none;
@@ -202,11 +203,12 @@ h2 {
 }
 
 .services h2 {
+    margin-bottom: 33px;
     color: #fff;
 }
 
 .img__service {
-    margin-bottom: 15px ;
+    margin-bottom: 13px ;
 }
 
 .text__service {    
@@ -249,7 +251,7 @@ h2 {
 /* описываем секцию контактов */
 .contacts {
     position: relative;
-    margin-bottom: 150px;
+    margin-bottom: 160px;
     padding-top: 35px;
     padding-left: 125px;
 }
@@ -257,7 +259,7 @@ h2 {
 /* с помощью псевдоэлемента before рисуем телефон */
 .contacts:before {
     position: absolute;
-    top: 0;
+    top: 1px;
     content: '';
     display: block;
     width: 13px;
@@ -271,12 +273,13 @@ h2 {
 .contacts a{
     font-size: 60px;
     line-height: 60px;
+    letter-spacing: -0.03em;
     color: #121212;
     text-decoration: none;
 }
 
 .contacts a:hover {
-    text-decoration: underline;
+    border-bottom: 2px solid;
 }
 
 .contact {
@@ -304,10 +307,13 @@ h2 {
 }
 
 .nav_footer a {
-    margin-right: 53px;
+    margin-right: 52px;
     color: #fff;
 }
 
+.nav_footer a:hover {
+    opacity: 0.5;
+}
 
 .footer p {
     position: absolute;
